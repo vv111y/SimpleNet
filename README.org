@@ -1,1 +1,22 @@
-A very simple feed forward neural network with a pytorch style. 
+A very simple feed forward neural network framework in the style of pytorch. Includes:
+
+- SGD
+  - basic gradient descent
+  - loss functions:
+    - MSE, mean squared error
+    - CE, cross entropy
+    - LogLoss, logloss
+
+- layers:
+  - linear
+  - conv2d
+  - batchnorm
+  - dropout
+  - residual
+  - activations:
+    - sigmoid
+    - tanh
+    - relu
+    - softmax
+
+Designed for pedagogy; the code is kept as minimal as possible so the essentials are clear. 
